@@ -17,8 +17,16 @@
   },
   "homepage": "https://github.com/KongLJ0801/webpack5#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.14.0",
     "css-loader": "^5.2.6",
     "css-minimizer-webpack-plugin": "^3.0.1",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.23.4",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
@@ -45,5 +53,11 @@
       "not dead",
       "not op_mini all"
     ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
